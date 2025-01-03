@@ -1,4 +1,4 @@
 # Currículo Web - Ricardo Potiguar
 
- Site simples em ReactJS para currículo web
+ Site simples em React para currículo web
 
