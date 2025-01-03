@@ -1,0 +1,181 @@
+#header {
+    background: linear-gradient(180deg, #3e3d72 0%, rgba(30, 29, 79, 0.8) 100%);
+    position: relative;
+    z-index: 10;
+    /* Certifica que a imagem fica atrás do header */
+}
+
+#div-header {
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    justify-content: space-between;
+    /* Título à esquerda e botões à direita */
+    align-items: center;
+    /* Centraliza verticalmente */
+    color: white;
+    background: linear-gradient(180deg, #3e3d72 0%, rgba(30, 29, 79, 0.8) 100%);
+    height: 50px;
+
+    & h1 {
+        white-space: nowrap;
+        /* Impede a quebra automática do texto */
+        overflow: hidden;
+        /* Impede que o texto extrapole o contêiner */
+        flex-shrink: 1;
+        /* Permite que o texto encolha para se ajustar */
+        /* max-width: calc(100% - 200px); /* Limita a largura do título para evitar colisões */
+    }
+    & h1:hover{
+        color: #547dee;
+    }
+
+    & button {
+        flex-shrink: 0;
+        /* Impede que o botão encolha */
+        border-radius: 10px;
+        /* background-color: #8B8AE1; */
+        background: linear-gradient(180deg, #8e8cbe 0%, rgba(64, 62, 158, 0.6) 100%);
+        height: 25px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        font-size: 12px;
+        width: 120px;
+
+
+        flex-shrink: 0;
+        /* Impede que o botão encolha */
+    }
+
+
+    & button:hover {
+        opacity: 0.7;
+    }
+
+}
+
+#div-necessidades{
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#div-necessidades:hover {
+    color: #547dee;
+}
+
+.div-buttons {
+    display: flex;
+    justify-content: flex-end;
+    /* Alinha os botões no canto direito */
+    gap: 20px;
+    /* Espaço entre os botões */
+}
+
+#titlePlatform {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.menu {
+    position: relative;
+}
+
+.menu-list {
+    display: none;
+    /* Layout padrão: horizontal */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li {
+    margin-left: 20px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Ocultar botão de menu em telas grandes */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+#container-header-user {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 1050px) {
+    #container-header-user {
+        display: none;
+    }
+    nav ul.menu-list.active {
+        display: flex;
+        /* Mostrar menu quando ativo */
+    }
+
+    .menu-list li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        /* Mostrar o botão de menu */
+    }
+    .menu-list {
+        display: none;
+        /* Ocultar menu padrão */
+        flex-direction: column;
+        /* Alterar layout para vertical */
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .div-buttons {
+        display: none;
+    }
+    #div-necessidades{
+        display: none;
+    }
+}
+
+
+@media (max-width: 750px) {
+    #div-header {
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+}
+
+/* --------------------------------------------------- Mobile -------------- */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.2rem;
+        /* Reduz o tamanho do texto em telas menores */
+    }
+
+
+
+
+
+
+
+
+}

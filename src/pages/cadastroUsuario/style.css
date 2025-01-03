@@ -1,0 +1,81 @@
+#container-cadastrousuario-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Faz com que o container ocupe toda a altura da tela */
+}
+
+#container-cadastrousuario-body {
+  flex: 1; /* Flexível, ocupa o espaço disponível */
+  display: flex;
+  padding-top: 20px;
+  width: 530px;
+  justify-content: center;
+  margin: 0 auto; /* Centraliza no contêiner pai */
+}
+
+#form-cadastrousuario {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #2E2D4E;
+  width: 530px;
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Inclui padding e bordas na largura */
+  
+  & h2 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+  } 
+
+  & button {
+    border-radius: 15px;
+    background: linear-gradient(180deg, #8e8cbe 0%, rgba(64, 62, 158, 0.6) 100%);
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  & button:hover {
+    opacity: 0.8;
+  }
+
+  & input {
+    border: 1px solid #48456C;
+    border-radius: 6px;
+    height: 40px;
+    background-color: #363653;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+  }
+}
+
+@media (max-width: 570px) {
+  #form-cadastrousuario {
+    width: 95%;
+    }
+
+
+  #container-cadastrousuario-body{
+    width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  #form-cadastrousuario {
+    width: 93%;
+    }
+}
+
+@media (max-width: 450px) {
+  #form-cadastrousuario {
+    width: 93%;
+    }
+}
