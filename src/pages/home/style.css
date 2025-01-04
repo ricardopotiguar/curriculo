@@ -6,7 +6,6 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-  color: #333;
   line-height: 1.6;
   background-color: #f9f9f9;
   margin: 0;
@@ -97,12 +96,26 @@ body {
   color: #2c3e50;
 }
 
+.experience-title-container{
+  display: flex;
+  align-items: center; /* Alinha o ícone e o texto verticalmente */
+}
+
+.experience-title-container p {
+  margin-left: 10px;
+}
+
+.experience-detail-container p {
+  margin-left: 40px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
 .contact-section p:hover, .skills-section li:hover, .languages-section li:hover {
   color: #3498db;
 }
 
 .presentation-section p {
-  color: #555;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -118,6 +131,13 @@ a:visited {
 
 a:hover {
   text-decoration: underline; /* Opcional: efeito de hover */
+}
+
+
+
+.experience-title:hover {
+  cursor: pointer;
+  color: #3498db; /* Cor após o link ser clicado */
 }
 
 @media (max-width: 700px) {
