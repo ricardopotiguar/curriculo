@@ -82,7 +82,7 @@ const Curriculo = () => {
           <ul>
             <li>
               <h3>GX2 Tecnologia</h3>
-              <div className='experience-title-container'><FaChevronDown /><p className='experience-title' onClick={() => exibirDescricao(1)}>Engineering Manager and Product Owner - Jul 2021 - O momento </p></div>
+              <div className='experience-title-container'><FaChevronDown /><p className='experience-title' onClick={() => exibirDescricao(1)}>Engineering Manager and Product Owner - Jul 2021 até o momento </p></div>
               {showDetails[1] && (
                 <div className='experience-detail-container'>
                   <p>Responsável pela liderança de projetos na fábrica de software, realizando a gestão dos projetos, utilizando métodos ágeis, mas também faço todo o processo de comunicação com stakeholders através de acompanhamento de roadmaps, cronogramas e status report. Responsável também pela gestão de pessoas do time, realizando contratações, gestão de desempenho, PDI, 1x1s. Além disso, apoiando e direcionando o time tanto nas definições de arquitetura e implementação das soluções, quanto nos processos e práticas internas do time.</p>
