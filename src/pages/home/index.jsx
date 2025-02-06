@@ -46,24 +46,23 @@ const Curriculo = () => {
             <li>Gestão de Processos</li>
             <li>Métodos Ágeis</li>
             <li>Desenvolvimento de Software Frontend</li>
-            <li>Desenvolvimento de Software Backend</li>
-            <li>NodeJS</li>
             <li>ReactJS</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>CSS</li>
+            <li>Desenvolvimento de Software Backend</li>
+            <li>Python</li>
+            <li>Django</li>
+            <li>NodeJS</li>
             <li>T-SQL / PL-SQL</li>
-            <li>Bancos de dados Relacionais</li>
+            <li>Integrações de Software com IA</li>
+            <li>Integrações com modelos de LLM</li>     
+            <li>Integrações de modelos NLP com Whatsapp</li>         
+            <li>IA Generativa com RAG vetoriais</li>
+            <li>Conversões de audios para NLP</li>
+            <li>Bancos de dados</li>
             <li>Arquiteturas de Software</li>
             <li>Containers / Docker</li>
-          </ul>
-        </div>
-        <div className="languages-section">
-          <h3>Idiomas</h3>
-          <ul>
-            <li>Português - Nativo</li>
-            <li>Inglês - Intermediário</li>
-            <li>Espanhol - Básico</li>
           </ul>
         </div>
       </div>
@@ -72,10 +71,9 @@ const Curriculo = () => {
       <div className="right-section">
         <div className="presentation-section">
           <h1>Ricardo Potiguar Silveira da Silva</h1>
-          <p>Com mais de 18 anos de experiência na área de tecnologia da informação, sou um entusiasta de novas tecnologias, IA Generativa, inovação e transformação digital. Minha abordagem de gestão é centrada em propósito e no empoderamento das pessoas, buscando sempre alavancar o potencial humano para alcançar os resultados esperados.</p>
-          <p>Tenho uma sólida trajetória no desenvolvimento de sistemas e produtos digitais, com ampla experiência em liderar times de alta performance. Minha expertise em transformação ágil me permite unir áreas de negócios e tecnologia em equipes coesas com um propósito comum.</p>
-          <p>Sou orientado a resultados, equilibrando sempre o desempenho com o cuidado e desenvolvimento das pessoas. Tenho facilidade em aprender sobre novos negócios e me adapto rapidamente a diferentes cenários e desafios.</p>
-          <p>Estou sempre em busca de oportunidades para aplicar meu conhecimento, paixão por tecnologia e gestão, contribuindo para o sucesso e crescimento das organizações em que atuo.</p>
+          <p>Com mais de 18 anos de experiência na área de tecnologia da informação, sou um entusiasta de novas tecnologias, IA Generativa e inovação. Minha abordagem de gestão é centrada em propósito e no empoderamento das pessoas, buscando sempre alavancar o potencial humano para alcançar os resultados esperados.</p>
+          <p>Tenho uma sólida trajetória no desenvolvimento de sistemas e produtos digitais, com ampla experiência em liderar times de alta performance. Minha expertise em transformação ágil, gestão de projetos e mindset de produtos me permite unir áreas de negócios e tecnologia em equipes coesas com um propósito comum.</p>
+          <p>Orientado a resultados, equilibrando sempre o desempenho com o cuidado e desenvolvimento das pessoas. Facilidade em aprender novos negócios, me adapto rapidamente a diferentes cenários e desafios.</p>
         </div>
         <div className="experience-section">
           <h2>Experiências Profissionais</h2>
@@ -176,6 +174,23 @@ const Curriculo = () => {
             <li>
               <h3>Escola Técnica - QI Informática</h3>
               <p>Curso Técnico de Informática - 2004 - 2005</p>
+            </li>
+          </ul>
+        </div>
+        <div className="education-section">
+          <h2>Idiomas</h2>
+          <ul>
+            <li>
+              <h3>Inglês</h3>
+              <p>Intermediário</p>
+            </li>
+            <li>
+              <h3>Espanhol</h3>
+              <p>Básico</p>
+            </li>
+            <li>
+              <h3>Português</h3>
+              <p>Nativo</p>
             </li>
           </ul>
         </div>
